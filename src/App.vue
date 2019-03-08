@@ -1,10 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-view/>
+      <button @click="nameChange">{{newName}}</button>
     </div>
-    <router-view/>
   </div>
 </template>
 
@@ -27,3 +26,21 @@
   }
 }
 </style>
+<script lang="ts">
+import { Component, Vue, Provide } from 'vue-property-decorator';
+
+@Component
+class App extends Vue {
+    name: string = 'Smallblack';
+    get newName(): string{
+        return this.name.split("").reverse().join('');
+    }
+    nameChange(): any{
+        this.name = this.name.split("").reverse().join("");
+    }
+    mounted(){
+
+    }
+}
+export default App;
+</script>
