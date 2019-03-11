@@ -19,6 +19,10 @@ const list = [
         name: '泛型',
         id: '5',
         url: 'generic',
+    }, {
+        name: '断言',
+        id: '6',
+        url: 'assertions',
     },
 ];
 export { list };
