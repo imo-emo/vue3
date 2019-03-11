@@ -2,7 +2,6 @@
   <div id="app">
     <div id="nav">
       <router-view/>
-      <button @click="nameChange">{{newName}}</button>
     </div>
   </div>
 </template>

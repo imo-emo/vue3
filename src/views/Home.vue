@@ -1,13 +1,20 @@
 <template>
   <div class="home">
-      Smallblack
+      <List :data="list"></List>
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
+import { Component, Vue, Provide } from 'vue-property-decorator';
 import List from '../components/list.vue';
+import {list} from '../api/list';
 
-@Component
-export default class Home extends Vue {}
+@Component({
+    components: {
+        List,
+    },
+})
+export default class Home extends Vue {
+    @Provide() private list: any = list;
+}
 </script>
