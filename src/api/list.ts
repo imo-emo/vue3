@@ -11,6 +11,14 @@ const list = [
         name: '接口',
         id: '3',
         url: 'interface',
+    }, {
+        name: '类',
+        id: '4',
+        url: 'classT',
+    }, {
+        name: '泛型',
+        id: '5',
+        url: 'generic',
     },
 ];
 export { list };

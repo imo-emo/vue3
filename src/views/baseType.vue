@@ -1,6 +1,6 @@
 <template>
     <div id="baseTyep">
-        {{name}}
+        baseType
         <back></back>
     </div>
 </template>
@@ -22,6 +22,10 @@ class BaseType extends Vue {
     @Provide() private obj: object = { name: 'Smallblack', age: 18, sex: '男', bolan: false};
     private mounted(): void {
         const nameLength: number = (this.name as string).length;
+        enum Direction {
+            a = 1,
+            b = 2,
+        }
     }
 }
 
