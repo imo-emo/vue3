@@ -30,7 +30,7 @@ export default new Router({
       name: 'interface',
       component: interfaces,
     }, {
-      path: 'classT',
+      path: '/classT',
       name: 'classT',
       component: classT,
     }, {
