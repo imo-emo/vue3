@@ -7,6 +7,7 @@ import interfaces from './views/interface.vue';
 import classT from './views/classT.vue';
 import generic from './views/generic.vue';
 import assertions from './views/assertions.vue';
+import componentst from './views/componentst.vue';
 
 Vue.use(Router);
 
@@ -42,6 +43,10 @@ export default new Router({
       path: '/assertions',
       name: 'assertions',
       component: assertions,
+    }, {
+      path: '/componentst',
+      name: 'componentst',
+      component: componentst,
     },
   ],
 });

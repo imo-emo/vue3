@@ -23,6 +23,10 @@ const list = [
         name: '断言',
         id: '6',
         url: 'assertions',
+    }, {
+        name: 'component',
+        id: '7',
+        url: 'componentst',
     },
 ];
 export { list };
