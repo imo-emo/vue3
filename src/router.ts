@@ -8,6 +8,7 @@ import classT from './views/classT.vue';
 import generic from './views/generic.vue';
 import assertions from './views/assertions.vue';
 import componentst from './views/componentst.vue';
+import recursive from './views/recursive.vue';
 
 Vue.use(Router);
 
@@ -47,6 +48,10 @@ export default new Router({
       path: '/componentst',
       name: 'componentst',
       component: componentst,
+    }, {
+      path: '/recursive',
+      name: 'recursive',
+      component: recursive,
     },
   ],
 });

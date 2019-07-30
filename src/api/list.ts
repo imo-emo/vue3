@@ -27,6 +27,10 @@ const list = [
         name: 'component',
         id: '7',
         url: 'componentst',
+    }, {
+        name: '递归组件',
+        id: '8',
+        url: 'recursive',
     },
 ];
 export { list };
