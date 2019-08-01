@@ -25,6 +25,8 @@ class Assertions extends Vue {
             [Symbol('name')]: '一斤代码',
             age: 18,
         };
+        const str = 'stringObject';
+        // console.log(str.padStart(20, '123'))
     }
     public async doSomething() {
         const result = this.getSomething();

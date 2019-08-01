@@ -9,6 +9,7 @@ import generic from './views/generic.vue';
 import assertions from './views/assertions.vue';
 import componentst from './views/componentst.vue';
 import recursive from './views/recursive.vue';
+import Promises from './views/Promise.vue';
 
 Vue.use(Router);
 
@@ -52,6 +53,10 @@ export default new Router({
       path: '/recursive',
       name: 'recursive',
       component: recursive,
+    }, {
+      path: '/Promises',
+      name: 'Promises',
+      component: Promises,
     },
   ],
 });

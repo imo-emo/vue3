@@ -31,6 +31,10 @@ const list = [
         name: '递归组件',
         id: '8',
         url: 'recursive',
+    }, {
+        name: 'promise',
+        id: '9',
+        url: 'Promises',
     },
 ];
 export { list };
