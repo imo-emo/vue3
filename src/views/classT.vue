@@ -8,6 +8,7 @@
 import {Component, Vue, Provide} from 'vue-property-decorator';
 import back from '../components/back.vue';
 
+// public private protected readonly static abstract(抽象类 -> 用于定义抽象类和在抽象类内部定义抽象方法 类似Interface)
 // class Demo {
 //     public sex: number = 12;
 //     protected type: boolean = true;

@@ -19,6 +19,10 @@ class Generic extends Vue {
     }
     private mounted(): void {
         const output = this.indentity<string>('name');
+        // class GenericNumber<T> { // 泛型类
+        //   public zeroValue: T;
+        //   public add: (x: T, y: T) => T;
+        // }
     }
 }
 
